@@ -6,7 +6,7 @@
   body {
     font-family: 'Lobster', cursive;
     color: #fff;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/567e05c4e0327cd48ad079f3/1549393263439-GKCS12JH8OLR8Z0EUIJ2/NETFLIX_FORM_02_wes.jpg);
+    background-image: url(./background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
   
   .container {
     /* width: 100%; */
-    margin: 50px 100px;
+    margin: 20px 50px;
     background-color: rgba(0, 0, 0, 0.4);
    min-width:350px;
    padding: 30px;
@@ -94,7 +94,7 @@
     padding: 10px 30px;
     border-radius: 25px;
     border: none;
-    background-color: #e50914;
+    background-color: green;
     color: #fff;
     font-size: 24px;
     cursor: pointer;
@@ -109,10 +109,33 @@
   }
   .submit-container {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .reset {
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+  
+  }
+
+  .reset:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  
+  
   }
   .required {
     text-align: center;
     color: darkgray;
     opacity: 70%;
+  }
+
+  .kayan{
+    background-color:darkred ;
+    
   }

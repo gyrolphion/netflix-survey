@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="shortcut icon" href=https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456 type="image/logo">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="logo.png" type="image/logo">
   <title>Netflix Survey Form</title>
 </head>
 <body>
- 
+  <marquee class="kayan" behavior="" direction="" scrollamount="20" height="30">Thanks for using Netflix</marquee>
   <div class="container">
     <div class="header">
-      <h1>Net<span>flix</span> </h1>
+      <h1>Net<span>flix</span></h1>
     </div>
-    <p class="description">Thank you for signing up at Netflix. Cam you tell us more about your self?</p>
+    <p class="description">Thank you for signing up at Netflix. Can you tell us more about your self?</p>
 
-    <form action="" class="netflix-form">
+    <form action="" class="netflix-form" method="post">
      <div class="personal-info">
 
    
@@ -37,6 +37,7 @@
         <label class="content"  for="name">Content Type</label>
     <!-- dropdown -->
         <select name="content" id="content">
+          <option value="0"></option>
           <option value="movies">Movies</option>
           <option value="series">Series</option>
           <option value="documentaries">Documentaries</option>
@@ -81,7 +82,8 @@
 
   <div class="submit-container">
 
-    <input class="submit" type="submit" value="Submit">
+    <input class="submit" type="submit" value="Submit"> <br> <br>
+    <input class="reset" type="reset"   value="Reset">
   </div>
   <br>
   <p class="required">*'s are required!</p>
